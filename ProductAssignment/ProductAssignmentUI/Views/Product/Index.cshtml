@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ProductAssignmentEntity.Models.Product>
+<div>
+    <hr />
+    <a asp-controller="Product" asp-action="ProductEntry">Product Entry</a>
+    <hr />
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <h3 align="center">Product List</h3>
+        <hr />
+        <table class="table table-light table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Product Id</th>
+                    <th>Product Code</th>
+                    <th>Product Name</th>
+                    <th>Product Year</th>
+                    <th>Channel Id</th>
+                    <th>Size Scale Id</th>
+                    <th>Create Date</th>
+                    <th>Created By</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.ProductId</td>
+                        <td>@product.ProductCode</td>
+                        <td>@product.ProductName</td>
+                        <td>@product.ProductYear</td>
+                        <td>@product.ChannelId</td>
+                        <td>@product.SizeScaleId</td>
+                        <td>@product.CreateDate</td>
+                        <td>@product.CreatedBy</td>
+                        @*<td><a asp-controller="Product" asp-action="EditProduct" asp-route-ProductId="@product.ProductId">Edit</a></td>
+                        <td><a asp-controller="Product" asp-action="DeleteProduct" asp-route-ProductId="@product.ProductId">Delete</a></td>*@
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

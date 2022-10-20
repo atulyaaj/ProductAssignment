@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAssignment", "ProductAssignment\ProductAssignment.csproj", "{37952ED2-3391-47FC-8503-068BD92608B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAssignmentEntity", "ProductAssignmentEntity\ProductAssignmentEntity.csproj", "{07C6E7DD-AB4C-42F3-96BC-1A391A5EBFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAssignmentDAL", "ProductAssignmentDAL\ProductAssignmentDAL.csproj", "{34C8B2A8-46CA-4727-8798-A2007BF4A813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAssignmentBAL", "ProductAssignmentBAL\ProductAssignmentBAL.csproj", "{F11B2430-02B4-4171-8774-4FD4E5D8673A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAssignmentAPI", "ProductAssignmentAPI\ProductAssignmentAPI.csproj", "{FDAC5341-7325-4773-BFE5-9C32A86E1F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAssignmentUI", "ProductAssignmentUI\ProductAssignmentUI.csproj", "{A2DEDC56-9D83-4BD0-9F1D-79C67D5F4483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37952ED2-3391-47FC-8503-068BD92608B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37952ED2-3391-47FC-8503-068BD92608B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37952ED2-3391-47FC-8503-068BD92608B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37952ED2-3391-47FC-8503-068BD92608B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C6E7DD-AB4C-42F3-96BC-1A391A5EBFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C6E7DD-AB4C-42F3-96BC-1A391A5EBFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C6E7DD-AB4C-42F3-96BC-1A391A5EBFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C6E7DD-AB4C-42F3-96BC-1A391A5EBFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C8B2A8-46CA-4727-8798-A2007BF4A813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C8B2A8-46CA-4727-8798-A2007BF4A813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C8B2A8-46CA-4727-8798-A2007BF4A813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C8B2A8-46CA-4727-8798-A2007BF4A813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11B2430-02B4-4171-8774-4FD4E5D8673A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11B2430-02B4-4171-8774-4FD4E5D8673A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11B2430-02B4-4171-8774-4FD4E5D8673A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11B2430-02B4-4171-8774-4FD4E5D8673A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAC5341-7325-4773-BFE5-9C32A86E1F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAC5341-7325-4773-BFE5-9C32A86E1F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAC5341-7325-4773-BFE5-9C32A86E1F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAC5341-7325-4773-BFE5-9C32A86E1F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DEDC56-9D83-4BD0-9F1D-79C67D5F4483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DEDC56-9D83-4BD0-9F1D-79C67D5F4483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DEDC56-9D83-4BD0-9F1D-79C67D5F4483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DEDC56-9D83-4BD0-9F1D-79C67D5F4483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB2A20CC-E708-4741-B962-A212C3E4ED4D}
+	EndGlobalSection
+EndGlobal
